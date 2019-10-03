@@ -15,12 +15,12 @@ npm install --save xampr-svg-icons
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'xampr-svg-icons'
+import Icon from 'xampr-svg-icons'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <Icon name={'icon_name'} color={'required_colorname'} size={'24px'}/>
     )
   }
 }

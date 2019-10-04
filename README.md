@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save xampr-svg-icons
+npm install --save material-svg-icons-react
 ```
 
 ## Usage

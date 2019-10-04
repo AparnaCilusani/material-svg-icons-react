@@ -23,7 +23,7 @@ class Example extends Component {
     return (
       <div>
         {temp.map((item,index)=> (
-          <Icon name={item} size='24px' color='grey' />
+          <Icon name={account} size='24px' color='grey' />
         ))}
          
       </div>

@@ -5,11 +5,12 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "material-svg-icons-react": "^1.0.6",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "xampr-svg-icons": "^1.0.1"
+    "xampr-svg-icons": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

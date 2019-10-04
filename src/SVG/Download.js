@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Add= ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+export const Download = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -12,8 +12,8 @@ export const Add= ({ style = {}, color = '#000000', size = '100%', className = '
 	>
 		<path
 			fill={color}
-            d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+			d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" 
+		/>
 	</svg>
 );
-
 

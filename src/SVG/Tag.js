@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tag = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+export const Tag = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -16,4 +16,3 @@ const Tag = ({ style = {}, color = '#000000', size = '100%', className = '', vie
 	</svg>
 );
 
-export default Tag

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Horizontal = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+export const Minus = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -12,12 +12,12 @@ export const Horizontal = ({ style = {}, color = '#000000', size = '100%', class
 	>
 		<path
 			fill={color}
-			d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"
+			d="M19,13H5V11H19V13Z"
 		/>
 	</svg>
 );
 
-export const Vertical = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+export const MinusBox = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -29,12 +29,12 @@ export const Vertical = ({ style = {}, color = '#000000', size = '100%', classNa
 	>
 		<path
 			fill={color}
-			d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z"
+			d="M17,13H7V11H17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"
 		/>
 	</svg>
 );
 
-export const Menu = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+export const MinusBoxOutline = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -46,12 +46,12 @@ export const Menu = ({ style = {}, color = '#000000', size = '100%', className =
 	>
 		<path
 			fill={color}
-			d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"
+			d="M19,19V5H5V19H19M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5C3,3.89 3.9,3 5,3H19M17,11V13H7V11H17Z"
 		/>
 	</svg>
 );
 
-export const MenuDown = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+export const MinusCircle = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -63,12 +63,13 @@ export const MenuDown = ({ style = {}, color = '#000000', size = '100%', classNa
 	>
 		<path
 			fill={color}
-			d="M7,10L12,15L17,10H7Z"
+			d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
 		/>
 	</svg>
 );
 
-export const MenuUp = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+
+export const MinusCircleOutline = ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -80,7 +81,7 @@ export const MenuUp = ({ style = {}, color = '#000000', size = '100%', className
 	>
 		<path
 			fill={color}
-			d="M7,15L12,10L17,15H7Z"
+			d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7"
 		/>
 	</svg>
 );

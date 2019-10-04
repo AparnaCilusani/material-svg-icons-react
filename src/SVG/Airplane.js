@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Add= ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
+export const TakeOff= ({ style = {}, color = '#000000', size = '100%', className = '', viewBox = '0 0 24 24' }) => (
 	<svg
 		width={size}
 		style={style}
@@ -15,5 +15,4 @@ export const Add= ({ style = {}, color = '#000000', size = '100%', className = '
             d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
 	</svg>
 );
-
 

@@ -4967,6 +4967,11 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+material-svg-icons-react@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/material-svg-icons-react/-/material-svg-icons-react-1.0.6.tgz#c2f87cf7c2087449327cbc0e3567e1eaea047f87"
+  integrity sha512-mSX+ZVvqAMjG2dCyM8LhqaiUR4hn88NVENe0rfqOUpeVAiei/0UPrg3/uSQ8QEw+78i+VTg2j4UIYRsFuQeMRQ==
+
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "https://registry.yarnpkg.com/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
@@ -8180,10 +8185,10 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-xampr-svg-icons@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/xampr-svg-icons/-/xampr-svg-icons-1.0.1.tgz#595d03139a8381baeb2bdc99f5f345fcdfb9cf2c"
-  integrity sha512-w6BC0cnCkO8hlKYYuaOGtTNj7po0t3Uzw0GiLz49cGeesRSmUHrwvQKByC0JWcOw4ujJ3MNZ/omuy6au4x/4gg==
+xampr-svg-icons@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/xampr-svg-icons/-/xampr-svg-icons-1.0.2.tgz#df8f4093a84143c9b97b6c3c0a5bf484d1ecfd48"
+  integrity sha512-R/zrgiZd2Ee3pIkS0vqYlk2EQtp7apE7hLbEHkoXo3fo5xPtH9K+OyUBN8mQCCVTPfpJYwOSeTjMoj+7+ZO8ng==
 
 xdg-basedir@^3.0.0:
   version "3.0.0"
